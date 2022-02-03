@@ -1,0 +1,20 @@
+.has-scroll-smooth body {
+    overflow: hidden;
+}
+
+#mainground {
+    .header_logo {
+        position: fixed;
+        line-height: 1;
+        z-index: 10;
+        color: #fff;
+        mix-blend-mode: difference;
+
+        a {
+            display: block;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            text-decoration: none;
+        }
+    }
+}
