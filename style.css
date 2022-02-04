@@ -1,5 +1,7 @@
 .has-scroll-smooth body {
   overflow: hidden;
+  min-height: 100vh;
+  background: #fff6e9;
 }
 
 #mainground .header_logo {
@@ -7,7 +9,7 @@
   line-height: 1;
   z-index: 10;
   right: 50px;
-  color: #fff;
+  top: 20px;
   mix-blend-mode: difference;
 }
 
@@ -16,6 +18,12 @@
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   text-decoration: none;
+  color: brown;
+  font-size: 14px;
+}
+
+#mainground .header_logo a:hover {
+  color: plum;
 }
 
 #mainground nav {
@@ -46,7 +54,20 @@
 }
 
 #mainground main .transwapper .features .pagetitlelip {
-  padding-top: 175px;
+  padding-top: 100px;
   margin-bottom: 50px;
+  padding-left: 10%;
+}
+
+#mainground main .transwapper .features .pagetitlelip h2 {
+  margin-bottom: 10px;
+  font-size: 80px;
+}
+
+#mainground main .transwapper .features .pagetitlelip p {
+  letter-spacing: 0.05em;
+  -webkit-font-feature-settings: "halt" on;
+          font-feature-settings: "halt" on;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
