@@ -35,6 +35,27 @@
   mix-blend-mode: difference;
 }
 
+#mainground nav .NavItems {
+  list-style-type: none;
+}
+
+#mainground nav .NavItems .NavItems_item {
+  padding-bottom: 5px;
+}
+
+#mainground nav .NavItems .NavItems_item a {
+  text-decoration: none;
+  color: brown;
+}
+
+#mainground nav .NavItems .NavItems_item a:hover {
+  color: pink;
+}
+
+#mainground nav .NavItems .NavItems_item a span {
+  font-size: 16px;
+}
+
 #mainground .header_button {
   position: fixed;
   width: 100%;
@@ -54,7 +75,7 @@
 }
 
 #mainground main .transwapper .features .pagetitlelip {
-  padding-top: 100px;
+  padding-top: 50px;
   margin-bottom: 50px;
   padding-left: 10%;
 }

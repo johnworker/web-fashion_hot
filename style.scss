@@ -34,6 +34,28 @@
         right: 5.5555555556%;
         z-index: 10;
         mix-blend-mode: difference;
+
+        .NavItems {
+            list-style-type: none;
+
+            .NavItems_item {
+                padding-bottom: 5px;
+
+                a {
+                    text-decoration: none;
+                    color: brown;
+
+                    &:hover {
+                        color: pink;
+                    }
+
+                    span {
+                        font-size: 16px;
+                    }
+        
+                }
+            }
+        }
     }
 
     .header_button {
@@ -54,7 +76,7 @@
         .transwapper {
             .features {
                 .pagetitlelip {
-                    padding-top: 100px;
+                    padding-top: 50px;
                     margin-bottom: 50px;
                     padding-left: 10%;
 
