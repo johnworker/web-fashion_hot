@@ -6,6 +6,7 @@
   position: fixed;
   line-height: 1;
   z-index: 10;
+  right: 50px;
   color: #fff;
   mix-blend-mode: difference;
 }
