@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://johnworker.github.io/Web_javascript_slide/style.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,19 +26,34 @@
         <button class="header_button">
             <span></span>
         </button>
-        <main>
-            <div class="transwapper">
-                <div class="features">
-                    <div class="pagetitlelip">
-                        <h2>FUTURE</h2>
-                        <p>related functions</p>
-                    </div>
+        <main class="clothes_show">
+            <!-- 輪播圖大盒子 -->
+            <!-- 寫法：#slider-box>(.slider-item>h1)*3 -->
+            <div id="slider-box" data-s-interval="3000" data-s-showdots="true">
+                <!-- 輪播圖內的項目，圖片與內容 -->
+                <div class="slider-item slider-active">
+                    <h1>衣服 1</h1>
                 </div>
-            </div>
+                <div class="slider-item">
+                    <h1>衣服 2</h1>
+                </div>
+                <div class="slider-item">
+                    <h1>衣服 3</h1>
+                </div>
+                <!-- 上一張與下一張按鈕 -->
+                <div id="slider-prev"></div>
+                <div id="slider-next"></div>
+                <!-- 點點 -->
+                <!-- 寫法：#slider-dots>(span.slider-dots)*3 -->
+                <div id="slider-dots">
+                    <span class="slider-dot slider-dot-active"></span>
+                    <span class="slider-dot"></span>
+                    <span class="slider-dot"></span>
         </main>
     </div>
-</body>
 
-<script src="./main.js"></script>
+    <script src="https://johnworker.github.io/Web_javascript_slide/main.js"></script>
+    <script src="./main.js"></script>
+</body>
 
 </html>
