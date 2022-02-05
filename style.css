@@ -1,14 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
 .has-scroll-smooth body {
   overflow: hidden;
   min-height: 100vh;
-  background: #fff6e9;
+}
+
+#mainground {
+  background-image: url(./img/yellow.jpg);
+  height: 100vh;
 }
 
 #mainground .header_logo {
   position: fixed;
   line-height: 1;
   z-index: 10;
-  right: 50px;
+  right: 4%;
   top: 20px;
   mix-blend-mode: difference;
 }
@@ -18,19 +23,21 @@
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   text-decoration: none;
-  color: brown;
+  color: aliceblue;
   font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 #mainground .header_logo a:hover {
-  color: plum;
+  color: aquamarine;
 }
 
 #mainground nav {
   display: block;
   position: fixed;
   bottom: 50px;
-  right: 5.5555555556%;
+  right: 4%;
   z-index: 10;
   mix-blend-mode: difference;
 }
@@ -40,20 +47,23 @@
 }
 
 #mainground nav .NavItems .NavItems_item {
-  padding-bottom: 5px;
+  padding-bottom: 15px;
+  text-align: right;
 }
 
 #mainground nav .NavItems .NavItems_item a {
   text-decoration: none;
-  color: brown;
+  color: aliceblue;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 #mainground nav .NavItems .NavItems_item a:hover {
-  color: pink;
+  color: aquamarine;
 }
 
 #mainground nav .NavItems .NavItems_item a span {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #mainground .header_button {
@@ -77,9 +87,14 @@
 #mainground .clothes_show {
   position: relative;
   width: 83.3333333333%;
-  height: 80vh;
-  top: 140px;
+  height: 100vh;
+  top: 0;
   overflow: hidden;
+  background-position: 500px;
+}
+
+#mainground .clothes_show #slider-box h2 {
+  padding: 50px 60px;
 }
 
 #mainground .clothes_show .slider-item:nth-of-type(3) {
