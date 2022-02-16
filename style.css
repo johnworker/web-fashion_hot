@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
 .has-scroll-smooth body {
-  overflow: hidden;
   min-height: 100vh;
 }
 
@@ -103,6 +102,16 @@
 
 .introduce {
   height: 100vh;
+  background-image: url(./img/yellow.jpg);
+  display: -ms-grid;
+  display: grid;
+}
+
+.introduce .describe_box {
+  height: 30vh;
+  padding: 150px 0 100px 10%;
+  -ms-grid-columns: 3, 1fr;
+      grid-template-columns: 3, 1fr;
 }
 
 .futures .transwapper .features .pagetitlelip {

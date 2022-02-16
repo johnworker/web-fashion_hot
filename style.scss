@@ -4,7 +4,6 @@ $color-white: white;
 $color-grey: grey;
 
 .has-scroll-smooth body {
-    overflow: hidden;
     min-height: 100vh;
     // background: rgb(255, 246, 233);
 }
@@ -107,6 +106,17 @@ $color-grey: grey;
 // introduce
 .introduce {
     height: 100vh;
+    background-image: url(./img/yellow.jpg);
+    display: grid;
+
+    .describe_box {
+        height: 30vh;
+        padding: 150px 0 100px 10%;
+        grid-template-columns: (3 ,1fr);
+
+        h2{
+        }
+    }
 }
 
 // futures
