@@ -103,15 +103,15 @@
 .introduce {
   height: 100vh;
   background-image: url(./img/yellow.jpg);
-  display: -ms-grid;
-  display: grid;
 }
 
 .introduce .describe_box {
   height: 30vh;
   padding: 150px 0 100px 10%;
-  -ms-grid-columns: 3, 1fr;
-      grid-template-columns: 3, 1fr;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2, 1fr;
+      grid-template-columns: 2, 1fr;
 }
 
 .futures .transwapper .features .pagetitlelip {
