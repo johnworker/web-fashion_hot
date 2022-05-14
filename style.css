@@ -116,6 +116,10 @@
       grid-template-columns: 2, 1fr;
 }
 
+.introduce .describe_box h2 {
+  font-size: 18px;
+}
+
 .futures .transwapper .features .pagetitlelip {
   padding-top: 50px;
   margin-bottom: 50px;
